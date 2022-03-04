@@ -1,4 +1,4 @@
-# Arduino
+# Temperature/Humidity Display
 
 Simple humidity monitor which reads humidity percentage from DHT11 sensor and displays it on common-cathode seven segment display. The DHT11 is the blue grid-like module in the rear left of the image. This feeds humidity/temperature data to the Arduino via a single serial stream. This stream is then decoded on the Arduino using the DHT11 library and displayed on the seven segment display. 
 
